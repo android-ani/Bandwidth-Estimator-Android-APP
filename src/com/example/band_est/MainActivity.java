@@ -99,7 +99,7 @@ private class MyAsyncTask extends AsyncTask<String, Integer, Double>{
           public void postData(String url) {
                // Create a new HttpClient and Post Header
                HttpClient httpclient = new DefaultHttpClient();
-               HttpPost httppost = new HttpPost("http://facebook.com/index.php");
+               HttpPost httppost = new HttpPost("http://www.bandestimator.appspot.com/index.html");
  
                try {
                     // Add your data
